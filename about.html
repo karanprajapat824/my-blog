@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - MyBlog</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+
+    }
+    .navbar {
+      background: linear-gradient(90deg, #0d6efd, #6610f2);
+    }
+    .navbar-brand, .nav-link {
+      color: #fff !important;
+    }
+    .hero-section {
+      background: url('https://source.unsplash.com/1600x500/?blog,writing') center/cover no-repeat;
+      padding: 100px 0;
+      text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    }
+    .hero-section h1 {
+      font-weight: bold;
+    }
+    .team-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    footer {
+      background-color: #0d6efd;
+      color: #fff;
+    }
+    footer a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    footer a:hover {
+      color: #ffc107;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">MyBlog</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="/category.html">Categories</a></li>
+          <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-section text-center">
+    <div class="container">
+      <h1>About MyBlog</h1>
+      <p class="lead">Your trusted source for tech, lifestyle, and creative inspiration.</p>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-md-6">
+          <img src="./images/aboutus.png" class="img-fluid rounded shadow" alt="About Image">
+        </div>
+        <div class="col-md-6">
+          <h2 class="fw-bold">Our Story</h2>
+          <p class="text-muted">
+            MyBlog started with a simple idea: to create a space where people can share ideas, learn new skills, and stay updated on the latest trends. 
+            Whether it's technology, lifestyle, or personal growth, our mission is to bring valuable and inspiring content to readers around the world.
+          </p>
+          <p class="text-muted">
+            We believe in the power of words and the importance of community. Every article, tutorial, and guide is crafted with passion and a commitment to quality.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-light ">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-5">Meet the Team</h2>
+      <div class="row g-4">
+        <div >
+          <div class="card team-card shadow-sm border-0 text-center p-3">
+            <img src="./images/me.jpg" class="rounded-circle mx-auto mt-3 border" alt="Team Member">
+            <div class="card-body">
+              <h5 class="card-title">Karan Prajapat</h5>
+              <p class="text-muted">Founder & Lead Developer</p>
+              <div>
+                <a target="_blank" href="https://linkedin.com/in/karanprajapat824"><i class="bi bi-linkedin fs-5 me-2"></i></a>
+                <a target="_blank" href="https://github.com/karanprajapat824"><i class="bi bi-github fs-5 me-2"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-4 text-center">
+    <div class="container">
+      <p class="mb-1">Follow us on</p>
+      <div>
+        <a href="#"><i class="bi bi-facebook fs-4"></i></a>
+        <a href="#"><i class="bi bi-twitter fs-4"></i></a>
+        <a href="#"><i class="bi bi-instagram fs-4"></i></a>
+        <a href="#"><i class="bi bi-linkedin fs-4"></i></a>
+      </div>
+      <p class="mt-3 mb-0">&copy; 2025 MyBlog. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
